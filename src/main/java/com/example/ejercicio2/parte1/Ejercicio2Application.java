@@ -1,8 +1,7 @@
-package com.example.ejercicio2;
+package com.example.ejercicio2.parte1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class Ejercicio2Application {
@@ -11,11 +10,4 @@ public class Ejercicio2Application {
 		SpringApplication.run(Ejercicio2Application.class, args);
 	}
 
-	@Bean
-	PersonaService getPersonaService()
-	{
-		PersonaService p=new PersonaServiceImpl();
-		p.setNombre("el del bean");
-		return p;
-	}
 }

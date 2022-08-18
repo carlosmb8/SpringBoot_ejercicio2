@@ -1,4 +1,4 @@
-package com.example.ejercicio2;
+package com.example.ejercicio2.parte1;
 
 import lombok.Data;
 
